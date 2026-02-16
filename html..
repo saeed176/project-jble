@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Specification - HCI2101</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <nav class="navbar">
+        <ul>
+            <li><a href="#info">General Info</a></li>
+            <li><a href="#clos">CLOs</a></li>
+            <li><a href="#topics">Topics</a></li>
+            <li><a href="#assessment">Assessment</a></li>
+            <li><a href="#references">References</a></li>
+            <li><a href="team.html">Team</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Course Specification: [Name of Course]</h1>
+    </header>
+
+    <main>
+        <section id="info">
+            <h2>General Information</h2>
+            <p><strong>Course Title:</strong> ...</p>
+            <p><strong>Course Code:</strong> ...</p>
+            </section>
+
+        <section id="clos">
+            <h2>Course Learning Outcomes</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Outcome Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.1</td>
+                        <td>Example Outcome...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="topics">
+            <h2>Course Topics</h2>
+            <ol>
+                <li>Introduction to HCI</li>
+                <li>User Interface Principles</li>
+                </ol>
+        </section>
+
+        <section id="assessment">
+            <h2>Student Assessment</h2>
+            <table>
+                <tr>
+                    <th>Assessment Task</th>
+                    <th>Week Due</th>
+                    <th>Proportion of Total Assessment</th>
+                </tr>
+                </table>
+        </section>
+
+        <section id="references">
+            <h2>References</h2>
+            <div class="reference-item">
+                <img src="images/book1.jpg" alt="Book Cover" width="100">
+                <a href="https://amazon.com/example-book" target="_blank">Book Title Example</a>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
