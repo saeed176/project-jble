@@ -1,38 +1,61 @@
+1) index.html
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Specification - HCI2101</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Specification - Ethics in HCI</title>
+    style.css
 </head>
 <body>
 
-    <nav class="navbar">
+    <!-- Top Navigation (Fixed) -->
+    <nav class="navbar" aria-label="Primary">
         <ul>
-            <li><a href="#info">General Info</a></li>
-            <li><a href="#clos">CLOs</a></li>
-            <li><a href="#topics">Topics</a></li>
-            <li><a href="#assessment">Assessment</a></li>
-            <li><a href="#references">References</a></li>
-            <li><a href="team.html">Team</a></li>
+            <li>#infoGeneral Info</a></li>
+            <li>#closCLOs</a></li>
+            <li>#topicsTopics</a></li>
+            <li>#assessmentAssessment</a></li>
+            <li>#referencesReferences</a></li>
+            <li>team.htmlTeam</a></li>
+            <!-- Language/Theme variations (required pages) -->
+            <li>index-ar.htmlالعربية</a></li>
+            <li>index-dark.htmlDark Mode</a></li>
         </ul>
     </nav>
 
     <header>
-        <h1>Course Specification: [Name of Course]</h1>
+        <h1>Course Specification: Ethics in Human-Computer Interaction</h1>
     </header>
 
     <main>
+
+        <!-- A. General Information -->
         <section id="info">
             <h2>General Information</h2>
-            <p><strong>Course Title:</strong> ...</p>
-            <p><strong>Course Code:</strong> ...</p>
-            </section>
 
+            <p><strong>Course Title:</strong> Ethics in Human-Computer Interaction</p>
+            <p><strong>Course Code:</strong> HCI 2204</p>
+
+            <p><strong>Credit Hours:</strong> 2 (Lecture: 30 contact hours)</p>
+            <p><strong>Course Type:</strong> Department — Required</p>
+            <p><strong>Level/Year:</strong> 2nd Year / Level 4</p>
+
+            <p><strong>Course Description:</strong> This course examines the ethical considerations that arise in human-computer interaction, focusing on moral principles, privacy, intellectual property, and social responsibilities. Students analyze ethical dilemmas and frameworks, explore inclusivity and accessibility, and evaluate societal impacts of HCI practices and emerging technologies.</p>
+
+            <!-- من كودك الأصلي (لم أحذف شيء) -->
+            <p><strong>Program:</strong> BSc in Human Computer Interaction</p>
+            <p><strong>Department:</strong> Software Engineering</p>
+            <p><strong>College:</strong> Computing</p>
+            <p><strong>Institution:</strong> Umm Al Qura University</p>
+            <p><strong>Version:</strong> 1.0</p>
+            <p><strong>Last Revision Date:</strong> 22/04/2025</p>
+        </section>
+
+        <!-- B. CLOs -->
         <section id="clos">
             <h2>Course Learning Outcomes</h2>
-            <table border="1">
+            <table>
                 <thead>
                     <tr>
                         <th>Code</th>
@@ -40,39 +63,133 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <!-- يمكنك إبقاء Outcomes التصميمية أو استبدالها بالـ CLOs من التوصيف -->
                     <tr>
                         <td>1.1</td>
-                        <td>Example Outcome...</td>
+                        <td>Understand the fundamental principles of Human‑Computer Interaction.</td>
+                    </tr>
+                    <tr>
+                        <td>1.2</td>
+                        <td>Apply usability principles to design effective user interfaces.</td>
+                    </tr>
+                    <tr>
+                        <td>1.3</td>
+                        <td>Evaluate user interfaces based on usability and accessibility standards.</td>
                     </tr>
                 </tbody>
             </table>
         </section>
 
+        <!-- C. Course Topics (ordered list) -->
         <section id="topics">
             <h2>Course Topics</h2>
             <ol>
-                <li>Introduction to HCI</li>
-                <li>User Interface Principles</li>
-                </ol>
+                <li>Introduction to Ethics in HCI</li>
+                <li>Ethical Frameworks and Theories</li>
+                <li>Privacy, Security, and Civil Liberties</li>
+                <li>Intellectual Property and Software Ethics</li>
+                <li>Social Implications of Computing</li>
+                <li>Inclusivity, Accessibility, and Cultural Contexts</li>
+                <li>Professional Responsibility in HCI</li>
+                <li>Emerging Technologies and Ethical Challenges</li>
+                <li>Case Studies in HCI Ethics</li>
+                <li>Ethical Research and Experimentation</li>
+            </ol>
         </section>
 
+        <!-- D. Student Assessment -->
         <section id="assessment">
             <h2>Student Assessment</h2>
             <table>
-                <tr>
-                    <th>Assessment Task</th>
-                    <th>Week Due</th>
-                    <th>Proportion of Total Assessment</th>
-                </tr>
-                </table>
+                <thead>
+                    <tr>
+                        <th>Assessment Task</th>
+                        <th>Week Due</th>
+                        <th>Proportion of Total Assessment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Quizzes</td>
+                        <td>Weeks 3–14</td>
+                        <td>10%</td>
+                    </tr>
+                    <tr>
+                        <td>Assignments</td>
+                        <td>Weeks 3–14</td>
+                        <td>10%</td>
+                    </tr>
+                    <tr>
+                        <td>Research Project</td>
+                        <td>Week 15</td>
+                        <td>20%</td>
+                    </tr>
+                    <tr>
+                        <td>Midterm Exam</td>
+                        <td>Weeks 7–8</td>
+                        <td>20%</td>
+                    </tr>
+                    <tr>
+                        <td>Final Exam</td>
+                        <td>Weeks 16–17</td>
+                        <td>40%</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
+        <!-- E. References (each book: image + clickable link to a selling site) -->
         <section id="references">
             <h2>References</h2>
+
+            <!-- 1) Essential Reference -->
             <div class="reference-item">
-                <img src="images/book1.jpg" alt="Book Cover" width="100">
-                <a href="https://amazon.com/example-book" target="_blank">Book Title Example</a>
+                https://www.amazon.com/dp/1119041618
+                    images/tavani-ethics-technology-6e.jpg
+                </a>
+                <div class="reference-info">
+                    https://www.amazon.com/dp/1119041618
+                        Ethics and Technology: Controversies, Questions, and Strategies for Ethical Computing (6th Edition) — Herman T. Tavani (2023)
+                    </a>
+                </div>
             </div>
+
+            <!-- 2) Supportive Reference -->
+            <div class="reference-item">
+                https://www.amazon.com/dp/1680834665
+                    images/values-ethics-hci-shilton.jpg
+                </a>
+                <div class="reference-info">
+                    https://www.amazon.com/dp/1680834665
+                        Values and Ethics in Human‑Computer Interaction — Katie Shilton (2018)
+                    </a>
+                </div>
+            </div>
+
+            <!-- 3) Supportive Reference -->
+            <div class="reference-item">
+                https://www.routledge.com/Technology-and-Ethics-An-Introduction/Hansson/p/book/9781802204149
+                    images/technology-and-ethics-hansson.jpg
+                </a>
+                <div class="reference-info">
+                    https://www.routledge.com/Technology-and-Ethics-An-Introduction/Hansson/p/book/9781802204149
+                        Technology and Ethics: An Introduction — Sven Ove Hansson (2022)
+                    </a>
+                </div>
+            </div>
+
+            <!-- 4) رابطك الأصلي (أبقيته كما هو) -->
+            <div class="reference-item">
+                https://amzn.in/d/0eZYfDnC
+                    https://m.media-amazon.com/images/I/51exXSDd2lL._SY466_.jpg
+                </a>
+                <div class="reference-info">
+                    https://amzn.in/d/0eZYfDnC
+                        Values and Ethics in Human-Computer Interaction — Katie Shilton (alt link)
+                    </a>
+                </div>
+            </div>
+
         </section>
     </main>
 
